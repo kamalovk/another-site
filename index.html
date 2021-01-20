@@ -1,0 +1,177 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+<head></head>
+<body>
+  <section class="section-header">
+    <div class="header-block">
+      <div class="header-block-logo">
+        
+        <a href="/index.html"><img src="/img/header/logo.svg" alt=""></a>
+      </div>
+      <div class="header-block-language">
+        <div class="language-kazakh">
+          <button class="language-button></button>
+          <div class="language-undeline"></div>
+        </div>
+        <div class="language-russian">
+          <button class="language-button></button>
+          <div class="language-undeline"></div>
+        </div>
+        <div class="language-english">
+          <button class="language-button"></button>
+          <div class="language-undeline"></div>
+        </div>
+      </div>
+      <div class="header-block-contacts">
+        <div class="header-block-phone-number">
+          <div class="phone-number-icon"></div>
+          <div class="phone-number-title">+7 (747) 218 37 82</div>
+        </div>
+        <div class="header-block-button">
+             
+             <button class='header-block-button-button'onclick="window.location.href='javascript:PopUpShow()';">Связаться с нами</button>
+            <div id="popup_hide"></div>
+          <div class="b-popup" id="popup1">
+              <div class="b-popup-content">
+                  <div class="b-popup-header">
+                    <div class="popup-header-logo">
+                      <img src="/img/header/logo.svg" alt="">
+                    </div>
+                    <a href="javascript:PopUpHide()" class="popup-exit"><img src="/img/header/popup-img/close.svg" alt=""></a>
+                  </div>
+                  <div class="popup-main">
+                    <div class="popup-form">
+                      <label for="">Давайте мы с вами свяжемся</label>
+                      <input type="text" placeholder="Имя">
+                      <input type="tel" placeholder="Телефон">
+                      <input type="text" placeholder="Электронная почта">
+                      <div>
+                        <input type="checkbox"><span>Я согласен на <a href="#">обработку персональных данных</a> </span>
+                      </div>
+                      
+                      <button class="popup-form-button">Отправить</button>
+                    </div>
+                    <div class="popup-contacts">
+                      <div class="popup-contacts-address"><img src="/img/header/popup-img/address.svg" alt=""><span>Площадь Республики 13, оф.109</span></div>
+                      <div class="popup-contacts-mail"><img src="/img/header/popup-img/email.svg" alt=""><span>info@kupi-business.kz</span></div>
+                      <div class="popup-contacts-phone"><img src="/img/header/popup-img/phone.svg" alt=""><span>+7 (747) 218 37 82</span></div>
+                    </div>
+                  </div>
+                  
+                  
+              </div>
+          </div>
+          
+          <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+          <script src="/js/popup-script.js"></script>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-main">
+    <div class="main-block">
+      <div class="timer-block">
+        <div class="timer-label">До запуска сайта осталось</div>
+        <div class="timer-clock">
+          <div id="js-clock">
+            <div class="box"><span id="js-clock-days">00</span><span class='js-clock-title'id='days'>Дней</span></div>
+            <div class="box"><span id="js-clock-hours">00</span><span class='js-clock-title' id="hours">Часов</span></div>
+            <div class="box"><span id="js-clock-minutes">00</span><span class='js-clock-title'
+              id='minutes'>Минут</span></div>
+            <div class="box"><span id="js-clock-seconds">00</span><span class='js-clock-title'id='seconds'>Секунд</span></div>
+          </div>
+          <script  src="/js/timer-script.js"></script>
+        </div>
+      </div>
+      <div class="main-label-block">
+        <div class="main-label-1">Продаете или покупаете бизнес? Инвестируете? Есть коммерческие предложения?</div>
+        <div class="main-label-2">Kupi-business.kz — бизнес-портал, где можно купить или продать готовый бизнес, стартап, франшизу, найти делового партнера, инвестора или инвестиционный проект.</div>
+        <div class="main-label-3"><a href="#">Мы бесплатно разместим ваше
+          объявление на нашем сайте.</a></div>
+      </div>
+      <div class="main-block-cards">
+        <div class="card">
+          <div class="card-icon card-icon1"></div>
+          <div class="card-title">Разместить объявление</div>
+          <div class="card-content">
+            <div class="card-content-header">
+              <img src="/img/header/logo.svg" alt="">
+            </div>
+            <div class="card-content-txt-btn">
+              <div class="card-content-text">Для первых 100 объявлений каждого раздела портала kupi-business.kz продвижение в подарок.
+                Успейте подать объявление!</div>
+              <div class="card-content-button">
+                <button onClick='location.href="/pages/card1.html"'>Подать объявление</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon card-icon2"></div>
+          <div class="card-title">Разместить рекламу</div>
+          <div class="card-content">
+            <div class="card-content-header">
+              <img src="/img/header/logo.svg" alt="">
+            </div>
+            <div class="card-content-txt-btn">
+              <div class="card-content-text">
+                Успейте разместить предзаказ для рекламы на портале kupi-business.kz Скидка 50% на любую рекламу до 15.02.2021 года
+              </div>
+              <div class="card-content-button">
+                <button onClick='location.href="/pages/card2.html"'>Оставить заявку</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-icon card-icon3"></div>
+          <div class="card-title">Зарабатывайте с нами</div>
+          <div class="card-content">
+            <div class="card-content-header">
+              <img src="/img/header/logo.svg" alt="">
+            </div>
+            <div class="card-content-txt-btn">
+              <div class="card-content-text">Мы предоставляем вам возможность заработать на нашем сервисе.</div>
+              <div class="card-content-button">
+                <button onClick='location.href="/pages/card3.html"'>Как заработать?</button>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="card card-last">
+          <div class="card-icon card-icon4"></div>
+          <div class="card-title">Сотрудничество</div>
+          <div class="card-content">
+            <div class="card-content-header">
+              <img src="/img/header/logo.svg" alt="">
+            </div>
+            <div class="card-content-txt-btn">
+              <div class="card-content-text">Напишите о том, как мы сможем совместно сотрудничать с вами</div>
+              <div class="card-content-button">
+                <button onClick='location.href="/pages/card4.html"'>Предложить</button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-footer">
+    <div class="footer-block">
+      <div class="footer-title">
+        © 2020 TOO “Kupi-Business.kz”
+      </div>
+    </div>
+    
+  </section>
+</body>
+</html>

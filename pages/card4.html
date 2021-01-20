@@ -1,0 +1,105 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style/style.css">
+</head>
+<head></head>
+<body>
+  <section class="section-header">
+    <div class="header-block">
+      <div class="header-block-logo">
+        
+        <a href="/index.html"><img src="/img/header/logo.svg" alt=""></a>
+      </div>
+      <div class="header-block-language">
+        <div class="language-kazakh">
+          <button class="language-button"></button>
+          <div class="language-undeline"></div>
+        </div>
+        <div class="language-russian">
+          <button class="language-button"></button>
+          <div class="language-undeline"></div>
+        </div>
+        <div class="language-english">
+          <button class="language-button"> </button>
+          <div class="language-undeline"></div>
+        </div>
+      </div>
+      <div class="header-block-contacts">
+        <div class="header-block-phone-number">
+          <div class="phone-number-icon"></div>
+          <div class="phone-number-title">+7 (747) 218 37 82</div>
+        </div>
+        <div class="header-block-button">
+             
+             <button class='header-block-button-button'onclick="window.location.href='javascript:PopUpShow()';">Связаться с нами</button>
+            <div id="popup_hide"></div>
+          <div class="b-popup" id="popup1">
+              <div class="b-popup-content">
+                  <div class="b-popup-header">
+                    <div class="popup-header-logo">
+                      <img src="/img/header/logo.svg" alt="">
+                    </div>
+                    <a href="javascript:PopUpHide()" class="popup-exit"><img src="/img/header/popup-img/close.svg" alt=""></a>
+                  </div>
+                  <div class="popup-main">
+                    <div class="popup-form">
+                      <label for="">Давайте мы с вами свяжемся</label>
+                      <input type="text" placeholder="Имя">
+                      <input type="tel" placeholder="Телефон">
+                      <input type="text" placeholder="Электронная почта">
+                      <div>
+                        <input type="checkbox"><span>Я согласен на <a href="#">обработку персональных данных</a> </span>
+                      </div>
+                      
+                      <button class="popup-form-button" >Отправить</button>
+                    </div>
+                    <div class="popup-contacts">
+                      <div class="popup-contacts-address"><img src="/img/header/popup-img/address.svg" alt=""><span>Площадь Республики 13, оф.109</span></div>
+                      <div class="popup-contacts-mail"><img src="/img/header/popup-img/email.svg" alt=""><span>info@kupi-business.kz</span></div>
+                      <div class="popup-contacts-phone"><img src="/img/header/popup-img/phone.svg" alt=""><span>+7 (747) 218 37 82</span></div>
+                    </div>
+                  </div>
+                  
+                  
+              </div>
+          </div>
+          
+          <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+          <script src="/js/popup-script.js"></script>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section-card4">
+    <div class="main-card4-block">
+      <form action="">
+        <div class="label-text">Сделайте свое предложение о сотрудничестве</div> 
+        <input type="text" placeholder="Имя">
+        <input type="text" placeholder="Телефон">
+        <input type="text" placeholder="Почта">
+        <input type="text" placeholder="Ваше предложение">
+        <div>
+          <input type="checkbox"><label id= 'checkbox-label' for="">Я согласен на <a href="#">обработку персональных данных</a> </label>
+        </div>
+        <button class="form-button">Отправить</button>
+      </form>
+    </div>
+  </section>
+  
+  <section class="section-footer">
+    <div class="footer-block">
+      <div class="footer-title">
+        © 2020 TOO “Kupi-Business.kz”
+      </div>
+    </div>
+  </section>
+  </body>
+  
+  
+  
+  </html>

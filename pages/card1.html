@@ -1,0 +1,122 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/style/style.css">
+  
+</head>
+<head></head>
+<body>
+  <section class="section-header">
+    <div class="header-block">
+      <div class="header-block-logo">
+        <a href="/index.html"><img src="/img/header/logo.svg" alt=""></a>
+      </div>
+      <div class="header-block-language">
+        <div class="language-kazakh">
+          <button class="language-button"></button>
+          <div class="language-undeline"></div>
+        </div>
+        <div class="language-russian">
+          <button class="language-button"></button>
+          <div class="language-undeline"></div>
+        </div>
+        
+        <div class="language-english">
+          <button class="language-button"></button>
+          <div class="language-undeline"></div>
+        </div>
+      </div>
+      <div class="header-block-contacts">
+        <div class="header-block-phone-number">
+          <div class="phone-number-icon"></div>
+          <div class="phone-number-title">+7 (747) 218 37 82</div>
+        </div>
+        <div class="header-block-button">
+          <button class='header-block-button-button'onclick="window.location.href='javascript:PopUpShow()';">Связаться с нами</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="main-card1">
+
+    <div class="main-card1-block">
+      <div class="main-card1-block-buttons">
+        <button class="card1-button tablinks" onclick="openTask(event, '1')" id='card1-button1'>Продам бизнес</button>
+        <button class="card1-button tablinks" onclick="openTask(event, '2')">Куплю бизнес</button>
+        <button class="card1-button tablinks" onclick="openTask(event, '3')">Сдам бизнес в управление(аренда бизнеса)</button>
+        <button class="card1-button tablinks" onclick="openTask(event, '4')">Добавить франшизу</button>
+        <button class="card1-button tablinks" onclick="openTask(event, '5')">Стать инвестором(Бизнес-ангелы)</button>
+        <button class="card1-button tablinks" onclick="openTask(event, '6')">Добавить коммерческое предложение</button>
+        <button class="card1-button tablinks" onclick="openTask(event, '7')">Добавить стартап</button>
+        
+       
+      </div>
+      <div class="card1-form">
+        <div id="1" class="tabcontent">
+          <form action="">
+            <label for="" id='main-label'>Куплю бизнес</label>
+            <input type="text" placeholder="Наименование бизнеса">
+            <input type="text" placeholder="Время работы">
+            <input type="text" placeholder="Стоимость бизнеса">
+            <input type="text" placeholder="Точный адрес">
+            <input type="text" placeholder="Окупаемость">
+            <input type="text" placeholder="Прибыль в месяц">
+            <input type="text" placeholder="Чистая прибыль в месяц">
+            <input type="text" placeholder="Перспектива бизнеса">
+            <div>
+              <input type="checkbox"><label id= 'checkbox-label' for="">Я согласен на <a href="#">обработку персональных данных</a> </label>
+            </div>
+            <button class="tabcontent-button">Отправить</button>
+  
+          </form>
+        </div>
+        <div id="2" class="tabcontent">
+          <form action="">
+            <input type="text" placeholder="Стоимость приобретения бизнеса от__до">
+            <input type="text" placeholder="Желаемая доходность">
+            <input type="text" placeholder="Опишите необходимые условия покупки">
+            <input type="file" name="f">
+            <input type="text" placeholder="Контакты">
+            
+            <div>
+              <input type="checkbox"><label id= 'checkbox-label' for="">Я согласен на <a href="#">обработку персональных данных</a> </label>
+            </div>
+            <button class="tabcontent-button">Отправить</button>
+  
+          </form>
+        </div>
+        <div id="3" class="tabcontent">
+          <form action="">
+
+            
+          </form>
+
+        </div>
+        <div id="4" class="tabcontent">
+          <form action="">
+            
+          </form>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="section-footer">
+    <div class="footer-block">
+      <div class="footer-title">
+        © 2020 TOO “Kupi-Business.kz”
+      </div>
+    </div>
+    
+  </section>
+
+<script src="/js/tabs-script.js"></script>
+</body>
+</html>
